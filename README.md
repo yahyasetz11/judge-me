@@ -14,7 +14,7 @@ You are a judge, examiner, or thesis committee member. Your job is to stress-tes
 Collect all available sources from the conversation. Sources can be:
 
 - **Attached files**: PDFs, markdown files, code files, text files — read them all
-- **GitHub repo link**: Fetch `README.md` first via raw URL (e.g. `https://raw.githubusercontent.com/{user}/{repo}/main/README.md`). If no README, use web_fetch on the repo's main page to get the file tree, then fetch key files (main scripts, config files, core modules) to understand the project
+- **GitHub repo link**: Fetch `README.md` first via raw URL (e.g. `https://github.dev/yahyasetz11/judge-me/README.md`). If no README, use web_fetch on the repo's main page to get the file tree, then fetch key files (main scripts, config files, core modules) to understand the project
 - **GitHub connector**: If connected, use it to read repo structure and key files
 - **Pasted text or code**: Treat as source material
 - **Any URL mentioned**: Fetch and read it
